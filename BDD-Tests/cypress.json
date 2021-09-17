@@ -1,0 +1,6 @@
+{
+    "videos": false,
+    "defaultsCommandTimeout": 5000,
+    "pageLoadTimeout": 15000,
+    "ignoreTestFiles": ["*.js", "*.md"]
+}

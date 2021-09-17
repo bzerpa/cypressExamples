@@ -1,0 +1,29 @@
+{
+  "name": "visual-tests",
+  "version": "1.0.0",
+  "description": "visual tests",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run",
+    "update-snapshots": "cypress run --env updateSnapshots=true",
+    "run no fail": "cypress run --env failOnSnapshotDiff=false",
+    "percy": "percy exec -- cypress run"
+  },
+  "keywords": [
+    "visual",
+    "testing",
+    "regression"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.67",
+    "@percy/cypress": "^3.1.1"
+  }
+}

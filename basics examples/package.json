@@ -1,0 +1,20 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "Learning Cypress",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "tests": "cypress run"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "cypress-xpath": "^1.6.2",
+    "prettier": "^2.3.2"
+  }
+}
